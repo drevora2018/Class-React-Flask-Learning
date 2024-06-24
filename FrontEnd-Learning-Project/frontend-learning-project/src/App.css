@@ -1,0 +1,142 @@
+body, html {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.HourlyParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+}
+
+.DayCards {
+    display: inline-flex;
+    
+}
+
+.DayCardsParent{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:center;
+    width: 100vw;
+    padding: 0 10vh;
+}
+
+.PaginationButtons {
+    display: flex;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    margin: 0 0 0 -5vw;
+}
+
+.DailyForecast {
+   
+}
+
+.DailyForecast h2{
+    text-align: center;
+}
+
+.HourlyInfo {
+    display: inline-flex;
+}
+
+.HourlyInfo * {
+    margin: 1vw;
+    align-content: center;
+}
+
+.ForeCastParent {
+    display:flex;
+}
+
+.FormSearch {
+    margin-left: 78vw;
+    margin-top: -8.5vh;
+}
+
+.LocationInput {
+    color: grey;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 2vh;
+    outline-width: 0;
+    border: none;
+    margin-right: 1vw;
+}
+.LocationInput:focus {
+    outline-width: 0;
+}
+
+.WeatherConditionBox {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    max-width: 20vw;
+    max-height: 25vh;
+    border-radius: 10px;
+    margin: 1vw 1vw;
+    padding: 1vw 1vw;
+}
+.WeatherConditionBox img{
+    max-width: 20vw;
+    max-height: 20vh;
+}
+.WeatherConditionBox label {
+    text-align: center;
+}
+
+
+.AppMain {
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 100vw;
+margin: 0;
+padding: 0;
+background-color: slategray;
+
+}
+.NavBar {
+    font-size: 3vw;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin:auto auto auto auto;
+}
+
+    nav > a {
+        display: flex;
+        margin: 1vh 3vh;
+        font-size: 1.3vw;
+        color: red;
+    }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+}
+
+.flex-item {
+    flex: 1 1 calc(33.333% - 32px); /* Adjust percentage to control the number of items per row */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin: 8px;
+    max-width: calc(25% - 16px);
+}
+
+h1 {
+    margin-left: 27vw;
+}
